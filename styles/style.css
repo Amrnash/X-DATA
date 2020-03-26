@@ -19,6 +19,9 @@ nav {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 .links-list {
   display: flex;
   justify-content: center;
@@ -151,4 +154,239 @@ ul {
 }
 .prices__element:not(:last-child) {
   border-right: 1px solid #e7e7e7;
+}
+
+/* services section */
+#services {
+  background-color: #f8f8f8;
+  padding: 10rem;
+}
+.services__heading-box {
+  text-align: center;
+}
+.services__heading-box h3 {
+  font-size: 3.6rem;
+  color: black;
+  font-weight: 500;
+}
+.services__heading-box p {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+}
+.services__grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.services__item {
+  margin: 1rem 0;
+  margin-top: 7rem;
+  text-align: center;
+}
+.services__item img {
+  width: 20%;
+}
+.services__item h5 {
+  padding: 2.5rem;
+  font-size: 1.8rem;
+  color: #75b1fc;
+  font-weight: 500;
+}
+.services__item p {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  line-height: 2.7rem;
+}
+.services__item a {
+  display: inline-block;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #e7e7e7;
+  font-size: 1.3rem;
+  color: #75b1fc;
+  transition: all 0.2s;
+}
+.services__item a:hover {
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+/* pricing Tables Section */
+
+#pricing-tables {
+  padding: 10rem;
+  border-bottom: 1px solid #e7e7e7;
+}
+.pricing-tables__heading-box {
+  text-align: center;
+}
+.pricing-tables__heading-box h3 {
+  font-size: 3.6rem;
+  color: black;
+  font-weight: 500;
+}
+.pricing-tables__heading-box p {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+}
+.plans {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: center;
+}
+.plans__Table {
+  margin: 0 0.2rem;
+}
+.plans-head {
+  width: 18rem;
+  height: 10rem;
+  padding: 2rem;
+  background-color: #65c139;
+  border-radius: 0.8rem 0.8rem 0 0;
+  color: white;
+  text-align: center;
+}
+.plans-head span {
+  font-size: 2.6rem;
+  color: white;
+}
+.plans-head h5 {
+  margin: 0.5rem;
+  color: white;
+  font-weight: 500;
+}
+.plans-content {
+  width: 18rem;
+  border: 1px solid #e7e7e7;
+  font-size: 1.3rem;
+}
+.plans-content ul {
+  padding: 0 2rem;
+  text-align: center;
+}
+.plans-content li {
+  margin: 1.5rem 0;
+}
+.btn-box {
+  display: flex;
+  justify-content: center;
+}
+.btn-order {
+  display: inline-block;
+  width: 9.4rem;
+  height: 3.5rem;
+  margin: 1rem 0 2rem 0;
+  padding: 0.9rem 2.5rem;
+  border: 1px solid #e7e7e7;
+  color: #75b1fc;
+  border-radius: 100px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background-color: #f8f8f8;
+  text-transform: uppercase;
+}
+
+/* Team Section */
+
+.team-header-box {
+  text-align: center;
+}
+.team-header-box h3 {
+  font-size: 3.6rem;
+  color: black;
+  font-weight: 500;
+  margin-top: 10rem;
+}
+.team-header-box p {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  line-height: 2.7rem;
+  margin-bottom: 7rem;
+}
+.team-members-box {
+  display: flex;
+}
+.team-member {
+  width: 33%;
+  height: 27.5rem;
+  text-align: center;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+.team-member:nth-child(odd) {
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+}
+.team-member img {
+  margin: 3rem 0;
+  border-radius: 50%;
+}
+
+.team-member h5 {
+  font-size: 1.8rem;
+  color: #65c139;
+  font-weight: 500;
+}
+.team-member p {
+  margin: 1rem 0;
+}
+.social-links a {
+  color: #333333;
+  margin: 0 1rem;
+  font-size: 1.3rem;
+}
+
+/* Blogs Section */
+#blogs {
+  background-color: #f8f8f8;
+}
+.blogs-container {
+  width: 120rem;
+  margin: 0 auto;
+}
+.blog-heading-box {
+  text-align: center;
+}
+.blog-heading-box h3 {
+  font-size: 3.6rem;
+  color: black;
+  font-weight: 500;
+  padding-top: 10rem;
+}
+.blog-heading-box p {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  line-height: 2.7rem;
+  margin-bottom: 7rem;
+}
+.blogs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.blog-card {
+  display: flex;
+  border: 1px solid #e7e7e7;
+}
+.blog-card img {
+  width: 40%;
+}
+.blog-card-details a {
+  display: inline-block;
+  font-size: 1.4rem;
+  margin: 2rem;
+  color: #75b1fc;
+}
+.shortcut-block {
+  font-size: 1.2rem;
+  display: flex;
+}
+.shortcut-block div {
+  margin: 2rem;
+  display: flex;
+}
+.shortcut-block div p {
+  color: #7e7e7e;
+  margin: 0 0.5rem;
+}
+.shortcut-block div i {
+  color: #65c139;
 }
